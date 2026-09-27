@@ -1,5 +1,5 @@
 ﻿[dependencies]
-"php/php" = "=8.3.29"
+"php/php" = "8.3"
 
 [fs]
 "/app" = "."
