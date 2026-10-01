@@ -1,0 +1,5 @@
+kind: wasmer.io/App.v0
+name: Todo_App_CI4
+owner: rakeshreddyyerra07
+package: .
+app_id: da_KwGIWtMUp9Ek
