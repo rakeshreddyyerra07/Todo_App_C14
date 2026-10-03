@@ -1,13 +1,11 @@
 ﻿[dependencies]
-"php/php" = "8.3"
+php = "php/php@8.3"
 
 [fs]
 "/app" = "."
 
 [[command]]
-name = "run"
-module = "php/php:php"
+name = "php"
+module = "php/php"
 runner = "wasi"
-
-[command.annotations.wasi]
-main-args = ["-t", "/app/public", "-S", "localhost:8080"]
+args = ["-t", "/app/public", "-S", "0.0.0.0:8080"]
