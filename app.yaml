@@ -3,3 +3,10 @@ name: Todo_App_CI4
 owner: rakeshreddyyerra07
 package: .
 app_id: da_KwGIWtMUp9Ek
+annotations:
+  anybuild.run/provider: php
+  anybuild.run/config:
+    composer_enable: true
+    name: out
+    php_public_dir: public
+    phpix: true
